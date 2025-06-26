@@ -1,0 +1,967 @@
+      /* 1. Mobile-first design (up to 768px) @media (max-width: 768px) {
+        body {
+            background-color: lightblue;
+        }
+    }
+
+    2. Tablet devices (769px to 1024px) @media (min-width: 769px) and (max-width: 1024px) {
+        body {
+            background-color: lightgreen;
+        }
+    }
+
+    3. Laptops (1025px to 1200px) @media (min-width: 1025px) and (max-width: 1200px) {
+        body {
+            background-color: orange;
+        }
+    }
+
+    4. Desktops (1201px and above) @media (min-width: 1201px) {
+        body {
+            background-color: gray;
+        }
+    } */
+
+
+      /* ++++++++++++++++++++++++++++++++++++++++++++++++(* Laptops Devices *)+++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+      @media (min-width: 1025px) and (max-width: 1200px) {
+          .section-p1 {
+              padding: 40px 40px;
+          }
+
+          /* <!--******************* ( End Header Section) *******************--> */
+
+
+          .main {
+              width: 100%;
+              height: 80vh;
+              box-shadow: 0px 0px 3px grey;
+              margin: auto;
+              position: relative;
+              overflow: hidden;
+              z-index: -9;
+
+          }
+
+          .main .slide {
+              width: 100%;
+              height: 80vh;
+              position: absolute;
+              transition: 1s ease;
+          }
+
+
+          .nav button #right {
+              position: absolute;
+              top: 450px;
+              left: 120px;
+              font-size: 30px;
+              padding: 30px;
+              /* background-color: red; */
+              cursor: pointer;
+
+          }
+
+          .nav button #left {
+              position: absolute;
+              top: 450px;
+              right: 300px;
+              font-size: 30px;
+              padding: 30px;
+              /* background-color: red; */
+              cursor: pointer;
+
+          }
+
+          /* <!--******************* (End Main Slider Section) *******************--> */
+
+          #feature {
+              justify-content: center;
+          }
+
+
+          #feature .fe-box {
+              margin: 15px 15px;
+          }
+
+          /* <!--******************* (End Feature Section) *******************--> */
+
+          #product1 .pro-container {
+              justify-content: center;
+
+          }
+
+          #product1 .pro-container {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-wrap: wrap;
+              gap: 15px;
+          }
+
+          #product1 .pro {
+              width: 40%;
+              min-width: 25px;
+              padding: 10px 12px;
+              margin: 15px 0;
+          }
+
+
+          #product1 .pro .des h5 {
+              color: #1a1a1a;
+              padding-top: 7px;
+              font-size: 12px;
+          }
+
+          #product1 .pro .des i {
+              font-size: 10px;
+              color: rgb(243, 181, 25);
+          }
+
+          #product1 .pro .des h5 {
+              padding-top: 7px;
+              font-size: 13px;
+              font-weight: 700;
+              color: #088178;
+          }
+
+          .pro-container .pro a i {
+              width: 30px;
+              height: 30px;
+              line-height: 30px;
+              font-weight: 400;
+          }
+
+          /* <!--******************* (End Feature Product Section) *******************--> */
+
+          #banner {
+              height: 40vh;
+          }
+
+          #banner h4 {
+              color: #fff;
+              font-size: 12px;
+          }
+
+          #banner h2 {
+              color: #fff;
+              font-size: 20px;
+              padding: 10px 0px;
+          }
+
+          /* <!--******************* (End Banner2 Section) *******************--> */
+          #sm-banner .banner-box {
+              width: 48%;
+              height: 40%;
+              margin-bottom: 15px;
+          }
+
+          .banner-box {
+              height: 50vh;
+              width: 480%;
+          }
+
+
+          #sm-banner h4 {
+              color: #fff;
+              font-size: 18px;
+              font-weight: 300;
+          }
+
+          #sm-banner h2 {
+              color: #fff;
+              font-size: 20px;
+              font-weight: 800;
+          }
+
+          #sm-banner span {
+              color: #fff;
+              font-size: 13px;
+              font-weight: 500;
+              padding-bottom: 50px;
+          }
+
+          /* <!--******************* (End Banner2 Section) *******************--> */
+
+
+          #banner3 {
+              padding: 0px 20px;
+          }
+
+          #banner3 .banner-box {
+              height: 50vh;
+              width: 100%;
+          }
+
+
+          #banner3 h2 {
+              color: #fff;
+              font-weight: 900;
+              font-size: 22px;
+              text-transform: uppercase;
+
+          }
+
+          #banner3 h3 {
+              color: #eb4343;
+              font-weight: 800;
+              font-size: 13px;
+              text-transform: uppercase;
+
+          }
+
+          /* <!--******************* (End Banner-3 Section) *******************--> */
+
+          #nwesletter .form {
+              display: flex;
+              width: 70%;
+          }
+
+          /* <!--******************* (Exit Nwes Letter Section) *******************--> */
+      }
+
+
+
+      /* ++++++++++++++++++++++++++++++++++++++++++++++++(* Tablet Devices *)+++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+
+      /* 2. Tablet devices (769px to 1024px) @media (min-width: 769px) and (max-width: 1024px) {
+        body {
+            background-color: lightgreen;
+        }
+    } */
+      @media (min-width: 769px) and (max-width: 1024px) {
+          .section-p1 {
+              padding: 40px 40px;
+          }
+
+          #navbar {
+              display: flex;
+              flex-direction: column;
+              align-items: flex-start;
+              justify-content: flex-start;
+              position: fixed;
+              top: 0;
+              right: -300px;
+              height: 100vh;
+              width: 300px;
+              background-color: #E3E6F3;
+              box-shadow: 0px 40px 60px rgba(0, 0, 0, 0.1);
+              padding: 80px 0 0 10px;
+              transition: 0.3s ease;
+
+          }
+
+          #navbar.active {
+              right: 0px;
+          }
+
+          #navbar li {
+              margin-bottom: 30px;
+          }
+
+          #mobile {
+              display: flex;
+              align-items: center;
+          }
+
+          #mobile i {
+              color: #1a1a1a;
+              font-size: 24px;
+              padding-left: 24px;
+              cursor: pointer;
+          }
+
+          #close {
+              display: initial;
+              position: absolute;
+              top: 30px;
+              left: 30px;
+              color: #222;
+              font-size: 24px;
+
+          }
+
+          #lg-bag {
+              display: none;
+          }
+
+          /* <!--******************* ( End Header Section) *******************--> */
+
+          .main {
+              width: 100%;
+              height: 60vh;
+              box-shadow: 0px 0px 3px grey;
+              margin: auto;
+              position: relative;
+              overflow: hidden;
+              z-index: -9;
+
+          }
+
+          .main .slide {
+              width: 100%;
+              height: 60vh;
+              position: absolute;
+              transition: 1s ease;
+          }
+
+          .main img {
+              height: auto;
+          }
+
+          .nav button #right {
+              position: absolute;
+              top: 350px;
+              left: 30px;
+              font-size: 30px;
+              padding: 30px;
+              /* background-color: red; */
+              cursor: pointer;
+
+          }
+
+          .nav button #left {
+              position: absolute;
+              top: 350px;
+              right: 30px;
+              font-size: 30px;
+              padding: 30px;
+              /* background-color: red; */
+              cursor: pointer;
+
+          }
+
+
+
+          /* <!--******************* (End Main Slider Section) *******************--> */
+
+          #feature {
+              justify-content: center;
+          }
+
+
+          #feature .fe-box {
+              margin: 15px 15px;
+          }
+
+          /* <!--******************* (End Feature Section) *******************--> */
+
+          #product1 .pro-container {
+              justify-content: center;
+
+          }
+
+          #product1 .pro-container {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-wrap: wrap;
+              gap: 15px;
+
+          }
+
+          #product1 .pro {
+              width: 40%;
+              min-width: 25px;
+              padding: 10px 12px;
+              margin: 15px 0;
+
+          }
+
+
+          #product1 .pro .des h5 {
+              color: #1a1a1a;
+              padding-top: 7px;
+              font-size: 12px;
+          }
+
+          #product1 .pro .des i {
+              font-size: 10px;
+              color: rgb(243, 181, 25);
+          }
+
+          #product1 .pro .des h5 {
+              padding-top: 7px;
+              font-size: 13px;
+              font-weight: 700;
+              color: #088178;
+          }
+
+          .pro-container .pro a i {
+              width: 30px;
+              height: 30px;
+              line-height: 30px;
+              font-weight: 400;
+
+          }
+
+          /* <!--******************* (End Feature Product Section) *******************--> */
+
+          #banner {
+              height: 40vh;
+          }
+
+          #banner h4 {
+              color: #fff;
+              font-size: 12px;
+          }
+
+          #banner h2 {
+              color: #fff;
+              font-size: 20px;
+              padding: 10px 0px;
+          }
+
+          /* <!--******************* (End Banner2 Section) *******************--> */
+          #sm-banner .banner-box {
+
+              width: 100%;
+              min-width: 100%;
+              height: 50vh;
+              padding: 30px;
+              margin-bottom: 15px;
+          }
+
+
+
+          #sm-banner h4 {
+              color: #fff;
+              font-size: 18px;
+              font-weight: 300;
+          }
+
+          #sm-banner h2 {
+              color: #fff;
+              font-size: 20px;
+              font-weight: 800;
+          }
+
+          #sm-banner span {
+              color: #fff;
+              font-size: 13px;
+              font-weight: 500;
+              padding-bottom: 50px;
+          }
+
+          /* <!--******************* (End Banner2 Section) *******************--> */
+
+
+          #banner3 {
+              padding: 0px 20px;
+          }
+
+          #banner3 .banner-box {
+              width: 32%;
+              height: 50vh;
+          }
+
+
+          #banner3 h2 {
+              color: #fff;
+              font-weight: 900;
+              font-size: 22px;
+              text-transform: uppercase;
+
+          }
+
+          #banner3 h3 {
+              color: #eb4343;
+              font-weight: 800;
+              font-size: 13px;
+              text-transform: uppercase;
+
+          }
+
+          /* <!--******************* (End Banner-3 Section) *******************--> */
+
+          #nwesletter .form {
+              display: flex;
+              width: 70%;
+          }
+
+          /* <!--******************* (Exit Nwes Letter Section) *******************--> */
+      }
+
+
+
+
+
+      /* <!--******************* ( Contact us Page ) *******************--> */
+      /* <!--******************* ( Contact us Page ) *******************--> */
+      @media (min-width: 769px) and (max-width: 1024px) {
+          #form-details {
+              padding: 40px;
+          }
+
+          #form-details form {
+              width: 50%;
+
+
+          }
+      }
+
+
+
+
+
+      /* ++++++++++++++++++++++++++++++++++++++++++++++++(* Mobile Devices *)+++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+      /* 1. Mobile-first design (up to 768px) @media (max-width: 768px) {
+        body {
+            background-color: lightblue;
+        } */
+
+
+      @media (max-width: 768px) {
+
+          .section-p1 {
+              padding: 20px 20px;
+          }
+
+          #header {
+              padding: 40px 20px;
+          }
+
+          #navbar {
+              display: flex;
+              flex-direction: column;
+              align-items: flex-start;
+              justify-content: flex-start;
+              position: fixed;
+              top: 0;
+              right: -300px;
+              height: 100vh;
+              width: 300px;
+              background-color: #E3E6F3;
+              box-shadow: 0px 40px 60px rgba(0, 0, 0, 0.1);
+              padding: 80px 0 0 10px;
+              transition: 0.3s ease;
+
+          }
+
+          #navbar.active {
+              right: 0px;
+          }
+
+          #navbar li {
+              margin-bottom: 30px;
+          }
+
+          #mobile {
+              display: flex;
+              align-items: center;
+          }
+
+          #mobile i {
+              color: #1a1a1a;
+              font-size: 24px;
+              padding-left: 24px;
+              cursor: pointer;
+          }
+
+          #close {
+              display: initial;
+              position: absolute;
+              top: 30px;
+              left: 30px;
+              color: #222;
+              font-size: 24px;
+
+          }
+
+          #lg-bag {
+              display: none;
+          }
+
+
+
+
+          /* <!--******************* ( End Header Section) *******************--> */
+
+          .main {
+              width: 100%;
+              height: 40vh;
+              box-shadow: 0px 0px 3px grey;
+              margin: auto;
+              position: relative;
+              overflow: hidden;
+              z-index: -9;
+
+          }
+
+          .main .slide {
+              width: 100%;
+              height: 40vh;
+              position: absolute;
+              transition: 1s ease;
+          }
+
+        
+
+          .nav button #right {
+              position: absolute;
+              top: 250px;
+              left: 30px;
+              font-size: 30px;
+              padding: 30px;
+              /* background-color: red; */
+              cursor: pointer;
+
+          }
+
+          .nav button #left {
+              position: absolute;
+              top: 250px;
+              right: 30px;
+              font-size: 30px;
+              padding: 30px;
+              /* background-color: red; */
+              cursor: pointer;
+
+          }
+
+
+          /* <!--******************* (End Main Slider Section) *******************--> */
+
+          #feature {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              flex-wrap: wrap;
+          }
+
+          #feature .fe-box {
+              justify-content: center;
+              width: 110px;
+              padding: 10px 0;
+              text-align: center;
+              /* background-color: red; */
+              margin: 15px 15px;
+          }
+
+
+          #feature .fe-box img {
+              width: 100%;
+              margin-bottom: 10px;
+          }
+
+          #feature .fe-box h6 {
+              display: inline-block;
+              padding: 5px;
+              line-height: 1;
+              border-radius: 4px;
+              color: #088178;
+              background-color: #fddde4;
+              font-size: 10px;
+          }
+
+
+          /* <!--******************* (End Feature Section) *******************--> */
+
+
+
+
+          /* <!--******************* (End Feature Section) *******************--> */
+
+          #product1 .pro-container {
+              justify-content: center;
+
+          }
+
+          #product1 .pro-container {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-wrap: wrap;
+              gap: 15px;
+
+          }
+
+          #product1 .pro {
+              width: 100%;
+              min-width: 25px;
+              padding: 10px 12px;
+              margin: 15px 0;
+
+          }
+
+
+          #product1 .pro .des h5 {
+              color: #1a1a1a;
+              padding-top: 7px;
+              font-size: 12px;
+          }
+
+          #product1 .pro .des i {
+              font-size: 10px;
+              color: rgb(243, 181, 25);
+          }
+
+          #product1 .pro .des h5 {
+              padding-top: 7px;
+              font-size: 13px;
+              font-weight: 700;
+              color: #088178;
+          }
+
+          .pro-container .pro a i {
+              width: 30px;
+              height: 30px;
+              line-height: 30px;
+              font-weight: 400;
+
+          }
+
+          /* <!--******************* (End Feature Product Section) *******************--> */
+
+          #banner {
+              height: 60vh;
+          }
+
+          #banner h4 {
+              color: #fff;
+              font-size: 12px;
+          }
+
+          #banner h2 {
+              color: #fff;
+              font-size: 20px;
+              padding: 10px 0px;
+          }
+
+          /* <!--******************* (End Banner2 Section) *******************--> */
+          #sm-banner .banner-box {
+              width: 100%;
+              min-width: 100%;
+              height: 50vh;
+              /* padding: 30px; */
+              margin-bottom: 15px;
+          }
+
+
+
+          #sm-banner h4 {
+              color: #fff;
+              font-size: 18px;
+              font-weight: 300;
+          }
+
+          #sm-banner h2 {
+              color: #fff;
+              font-size: 20px;
+              font-weight: 800;
+          }
+
+          #sm-banner span {
+              color: #fff;
+              font-size: 13px;
+              font-weight: 500;
+              padding-bottom: 50px;
+          }
+
+          /* <!--******************* (End Banner2 Section) *******************--> */
+
+
+          #banner3 {
+              padding: 0px 20px;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+
+          }
+
+          #banner3 .banner-box {
+              height: 40vh;
+              width: 90%;
+              text-align: center;
+          }
+
+
+          #banner3 h2 {
+              color: #fff;
+              font-weight: 900;
+              font-size: 22px;
+              text-transform: uppercase;
+              text-align: left;
+
+          }
+
+          #banner3 h3 {
+              color: #eb4343;
+              font-weight: 800;
+              font-size: 13px;
+              text-transform: uppercase;
+              text-align: left;
+
+          }
+
+          /* <!--******************* (End Banner-3 Section) *******************--> */
+
+          #nwesletter .form {
+              display: flex;
+              width: 100%;
+          }
+
+          /* <!--******************* (Exit Nwes Letter Section) *******************--> */
+
+
+      }
+
+
+      /* <!--******************* ( Single Product Page ) *******************--> */
+      /* <!--******************* ( Shop Product Page ) *******************--> */
+
+      @media (max-width: 768px) {
+          #prodetails {
+              display: flex;
+              flex-direction: column;
+          }
+
+          #prodetails .single-pro-image {
+              width: 100%;
+              margin-right: 0;
+          }
+
+          #prodetails .single-pro-details {
+              width: 100%;
+          }
+      }
+
+      /* <!--******************* ( About Page ) *******************--> */
+      /* <!--******************* ( About Page ) *******************--> */
+
+
+
+
+      /* <!--******************* ( Blog Page ) *******************--> */
+      /* <!--******************* ( Blog Page ) *******************--> */
+      @media (max-width: 768px) {
+          #blog {
+              padding: 80px 20px 0 20px;
+          }
+
+          #blog .blog-box {
+              display: flex;
+              flex-direction: column;
+              align-items: flex-start;
+          }
+
+          #blog .blog-img {
+              width: 100%;
+              margin-right: 0;
+              margin-bottom: 30px;
+          }
+
+          #blog .blog-details {
+              width: 100%;
+          }
+      }
+
+      /* <!--******************* ( About Page ) *******************--> */
+      /* <!--******************* ( About Page ) *******************--> */
+
+      @media (max-width: 768px) {
+          #about-head {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+
+          }
+
+          #about-head img {
+              width: 100%;
+              margin-bottom: 20px;
+              background-repeat: no-repeat;
+              background-size: cover;
+          }
+
+          #about-head div {
+              padding-left: 0px;
+          }
+
+          #about-head marquee {
+              height: 35px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              text-align: center;
+              background-color: #ccc;
+          }
+
+          #about-app .video {
+              width: 100%;
+              height: 100%;
+              margin: 30px auto 0 auto;
+          }
+      }
+
+      /* <!--******************* ( Contact us Page ) *******************--> */
+      /* <!--******************* ( Contact us Page ) *******************--> */
+
+
+
+
+      /* <!--******************* ( Contact us Page ) *******************--> */
+      /* <!--******************* ( Contact us Page ) *******************--> */
+      @media (max-width: 768px) {
+          #contact-detials {
+              flex-direction: column;
+          }
+
+          #contact-detials .details {
+              width: 100%;
+              margin-bottom: 30px;
+          }
+
+          #contact-detials .map {
+              width: 100%;
+          }
+
+          #form-details {
+              margin: 10px;
+              padding: 30px 10px;
+              flex-wrap: wrap;
+          }
+
+          #form-details form {
+              width: 100%;
+              margin-bottom: 30px;
+          }
+
+
+      }
+
+
+      /* <!--******************* ( Cart Page ) *******************--> */
+      /* <!--******************* ( Cart Page ) *******************--> */
+      @media (max-width: 768px) {
+          #cart-add {
+              flex-direction: column;
+          }
+
+          #coupon {
+              width: 100%;
+          }
+
+          #coupon input {
+              width: 50%;
+          }
+
+          #subtotal {
+              width: 100%;
+              padding: 20px;
+          }
+
+          #subtotal table {
+              border-collapse: collapse;
+              width: 100%;
+              margin-bottom: 20px;
+          }
+
+          #subtotal table td {
+              width: 100%;
+          }
+      }
